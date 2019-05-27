@@ -37,7 +37,7 @@ import { templatesActionCreators } from './../templates-store/actions';
               </div>
 
               <mat-toolbar color="primary">
-                Utopian templates
+                techvoices.club templates
               </mat-toolbar>
               <mat-option *ngFor="let template of utopianAll" [value]="template.name">
                 {{ template.name }}
