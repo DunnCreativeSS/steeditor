@@ -4,5 +4,8 @@ export const environment = {
     clientId: 'hodlorbust',
     redirectUrl: 'http://techvoices.club/__/steemconnect/redirect',
     scope: ['comment', 'comment_options']
+  },
+  steemRPCConfig: {
+    node: 'https://anyx.io/'
   }
 };
