@@ -1,4 +1,4 @@
-<div [formGroup]="parentForm">
+<div [formGroup]="parentForm"> <!--
   <mat-form-field class="tags__field">
     <mat-chip-list #tagsList class="tags">
       <mat-chip *ngFor="let tag of tagsControl.value; let i = index;" [color]="isValidTag(tag) ? 'primary' : 'warn'"
@@ -11,4 +11,4 @@
     </mat-chip-list>
   </mat-form-field>
   <mat-error *ngIf="!!currentErrorMessage" class="tags__error">{{currentErrorMessage}}</mat-error>
-</div>
+--></div>
