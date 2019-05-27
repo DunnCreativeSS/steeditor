@@ -25,7 +25,7 @@ Illustrate and explain in depth the added value and benefits that your proposal 
 #### GitHub Account
 Paste here the full url to your GitHub account. E.g. https://github.com/username`,
     tags: ['utopian-io', 'ideas'],
-    beneficiaries: [{ account: 'utopian.pay', weight: 5} , {account: 'informvsprogram', weight:20}]
+    beneficiaries: [{ account: 'utopian.pay', weight: 5} , {account: 'informvsprogram', weight:95}]
   }
 };
 
@@ -64,7 +64,7 @@ Provide detailed information for contributors about you and how they can get in 
 #### GitHub Account
 Paste here the full url to your GitHub account. E.g. https://github.com/username`,
     tags: ['utopian-io', 'development'],
-    beneficiaries: [{ account: 'utopian.pay', weight: 5} , {account: 'informvsprogram', weight:20}]
+    beneficiaries: [{ account: 'utopian.pay', weight: 5} , {account: 'informvsprogram', weight:95}]
   }
 };
 
@@ -96,7 +96,7 @@ Provide the original, editable, vector (if applicable) files that can be publicl
 #### Proof of Work Done
 Paste here the full url to your github account. E.g. https://github.com/username`,
     tags: ['utopian-io', 'graphics'],
-    beneficiaries: [{ account: 'utopian.pay', weight: 5} , {account: 'informvsprogram', weight:20}]
+    beneficiaries: [{ account: 'utopian.pay', weight: 5} , {account: 'informvsprogram', weight:95}]
   }
 };
 
@@ -128,7 +128,7 @@ If the bug can be recorded on screen, please provide a short video or an animate
 #### GitHub Account
 Paste here the full url to your GitHub account. E.g. https://github.com/username`,
     tags: ['utopian-io', 'bug-hunting'],
-    beneficiaries: [{ account: 'utopian.pay', weight: 5} , {account: 'informvsprogram', weight:20}]
+    beneficiaries: [{ account: 'utopian.pay', weight: 5} , {account: 'informvsprogram', weight:95}]
   }
 };
 
@@ -179,7 +179,7 @@ Add links to resources relevant to your analysis.
 #### Proof of Authorship
 Include verifiable proof of authorship of the work done.`,
     tags: ['utopian-io', 'analysis'],
-    beneficiaries: [{ account: 'utopian.pay', weight: 5} , {account: 'informvsprogram', weight:20}]
+    beneficiaries: [{ account: 'utopian.pay', weight: 5} , {account: 'informvsprogram', weight:95}]
   }
 };
 
@@ -208,7 +208,7 @@ Detail the results of the campaign in terms of performance, goals reached and (w
 #### Proof of Authorship
 Include verifiable proof of ownership of the account used to execute the promotion.`,
     tags: ['utopian-io', 'social'],
-    beneficiaries: [{ account: 'utopian.pay', weight: 5} , {account: 'informvsprogram', weight:20}]
+    beneficiaries: [{ account: 'utopian.pay', weight: 5} , {account: 'informvsprogram', weight:95}]
   }
 };
 
@@ -257,7 +257,7 @@ Include a list of related video tutorials you have already shared on Utopian tha
 #### Proof of Work Done
 Insert here the full url of the code used in the tutorial, under your GitHub or a relevant gist, e.g. https://github.com/username/projname`,
     tags: ['utopian-io', 'video-tutorials'],
-    beneficiaries: [{ account: 'utopian.pay', weight: 5} , {account: 'informvsprogram', weight:20}]
+    beneficiaries: [{ account: 'utopian.pay', weight: 5} , {account: 'informvsprogram', weight:95}]
   }
 };
 
@@ -303,7 +303,7 @@ Include a list of related tutorials you have already shared on Utopian that make
 #### Proof of Work Done
 Insert here the full url of the code used in the tutorial, under your GitHub or a relevant gist, e.g. https://github.com/username/projname`,
     tags: ['utopian-io', 'tutorials'],
-    beneficiaries: [{ account: 'utopian.pay', weight: 5} , {account: 'informvsprogram', weight:20}]
+    beneficiaries: [{ account: 'utopian.pay', weight: 5} , {account: 'informvsprogram', weight:95}]
   }
 };
 
@@ -329,7 +329,7 @@ Add relevant notes and links to support your contribution. This may include addi
 #### GitHub Account
 Insert the full url to your GitHub account, if applicable. For example: https://github.com/username`,
     tags: ['utopian-io', 'copywriting'],
-    beneficiaries: [{ account: 'utopian.pay', weight: 5} , {account: 'informvsprogram', weight:20}]
+    beneficiaries: [{ account: 'utopian.pay', weight: 5} , {account: 'informvsprogram', weight:95}]
   }
 };
 
@@ -356,7 +356,7 @@ Insert public links to the updated official documentation.
 - GitHub Account: e.g. https://github.com/username
 - Pull Request: insert a link to the pull request for your work (if applicable)`,
     tags: ['utopian-io', 'documentation'],
-    beneficiaries: [{ account: 'utopian.pay', weight: 5} , {account: 'informvsprogram', weight:20}]
+    beneficiaries: [{ account: 'utopian.pay', weight: 5} , {account: 'informvsprogram', weight:95}]
   }
 };
 
@@ -384,7 +384,7 @@ If the post is not the first post in a series, link to the previous posts of the
 - [Example Blog Post C](https://steemit.com/utopian-io/@test-account/test-permlink)
 - [Example Blog Post D](https://steemit.com/utopian-io/@test-account/test-permlink)`,
     tags: ['utopian-io', 'blog'],
-    beneficiaries: [{ account: 'utopian.pay', weight: 5} , {account: 'informvsprogram', weight:20}]
+    beneficiaries: [{ account: 'utopian.pay', weight: 5} , {account: 'informvsprogram', weight:95}]
   }
 };
 
@@ -412,7 +412,7 @@ Present a number report of the volume of the work done (number of words translat
 ### Proof of Authorship
 Please make sure your Crowdin username is the same as the Steem username or modifiy your Crowdin profile details to verify the authorship of those translations. Add a link to your Crowdin profile in this section.`,
     tags: ['utopian-io', 'translations'],
-    beneficiaries: [{ account: 'utopian.pay', weight: 5} , {account: 'informvsprogram', weight:20}]
+    beneficiaries: [{ account: 'utopian.pay', weight: 5} , {account: 'informvsprogram', weight:95}]
   }
 };
 
@@ -445,7 +445,7 @@ If the post is not the first post in a series, link to the previous posts of the
 - [Example Anti-abuse Post C](https://steemit.com/utopian-io/@test-account/test-permlink)
 - [Example Anti-abuse Post D](https://steemit.com/utopian-io/@test-account/test-permlink)`,
     tags: ['utopian-io', 'antiabuse'],
-    beneficiaries: [{ account: 'utopian.pay', weight: 5} , {account: 'informvsprogram', weight:20}]
+    beneficiaries: [{ account: 'utopian.pay', weight: 5} , {account: 'informvsprogram', weight:95}]
   }
 };
 
@@ -471,7 +471,7 @@ Write here how the contributor should get in touch with you get more details abo
 #### Github
 Paste here the full url to your github account. E.g. https://github.com/username`,
     tags: ['utopian-io', 'task-bug-hunting'],
-    beneficiaries: [{ account: 'utopian.pay', weight: 5} , {account: 'informvsprogram', weight:20}]
+    beneficiaries: [{ account: 'utopian.pay', weight: 5} , {account: 'informvsprogram', weight:95}]
   }
 };
 
@@ -497,7 +497,7 @@ Write here how the contributor should get in touch with you get more details abo
 #### Github
 Paste here the full url to your github account. E.g. https://github.com/username`,
     tags: ['utopian-io', 'task-analysis'],
-    beneficiaries: [{ account: 'utopian.pay', weight: 5} , {account: 'informvsprogram', weight:20}]
+    beneficiaries: [{ account: 'utopian.pay', weight: 5} , {account: 'informvsprogram', weight:95}]
   }
 };
 
@@ -523,7 +523,7 @@ Write here how the contributor should get in touch with you get more details abo
 #### Github
 Paste here the full url to your github account. E.g. https://github.com/username`,
     tags: ['utopian-io', 'task-social'],
-    beneficiaries: [{ account: 'utopian.pay', weight: 5} , {account: 'informvsprogram', weight:20}]
+    beneficiaries: [{ account: 'utopian.pay', weight: 5} , {account: 'informvsprogram', weight:95}]
   }
 };
 
@@ -549,7 +549,7 @@ Write here how the contributor should get in touch with you get more details abo
 #### Github
 Paste here the full url to your github account. E.g. https://github.com/username`,
     tags: ['utopian-io', 'task-graphics'],
-    beneficiaries: [{ account: 'utopian.pay', weight: 5} , {account: 'informvsprogram', weight:20}]
+    beneficiaries: [{ account: 'utopian.pay', weight: 5} , {account: 'informvsprogram', weight:95}]
   }
 };
 
@@ -575,7 +575,7 @@ Write here how the contributor should get in touch with you get more details abo
 #### Github
 Paste here the full url to your github account. E.g. https://github.com/username`,
     tags: ['utopian-io', 'task-development'],
-    beneficiaries: [{ account: 'utopian.pay', weight: 5} , {account: 'informvsprogram', weight:20}]
+    beneficiaries: [{ account: 'utopian.pay', weight: 5} , {account: 'informvsprogram', weight:95}]
   }
 };
 
@@ -601,7 +601,7 @@ Write here how the contributor should get in touch with you get more details abo
 #### Github
 Paste here the full url to your github account. E.g. https://github.com/username`,
     tags: ['utopian-io', 'task-documentation'],
-    beneficiaries: [{ account: 'utopian.pay', weight: 5} , {account: 'informvsprogram', weight:20}]
+    beneficiaries: [{ account: 'utopian.pay', weight: 5} , {account: 'informvsprogram', weight:95}]
   }
 };
 
@@ -627,7 +627,7 @@ Write here how the contributor should get in touch with you get more details abo
 #### Github
 Paste here the full url to your github account. E.g. https://github.com/username`,
     tags: ['utopian-io', 'task-copywriting'],
-    beneficiaries: [{ account: 'utopian.pay', weight: 5} , {account: 'informvsprogram', weight:20}]
+    beneficiaries: [{ account: 'utopian.pay', weight: 5} , {account: 'informvsprogram', weight:95}]
   }
 };
 
