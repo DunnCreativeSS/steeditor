@@ -318,7 +318,7 @@ e.g. https://github.com/utopian-io/utopian.io
 Link to the task request e.g. https://steemit.com/utopian-io/@test-account/test-permlink
 
 #### Overview
-Describe the scope of your work and give context; include how your work meets the project's needs as described in the Utopian task request.
+Describe the scope of your work and give context; include how your work meets the project's needs as described in the Techvoices.club task request.
 
 #### Actual content
 Add the actual copy you created in its entirety or details with links to the full version.
@@ -450,8 +450,8 @@ If the post is not the first post in a series, link to the previous posts of the
 };
 
 export const UTOPIAN_TASK_REQUEST_BUG_HUNTERS: Template = {
-  name: 'Utopian task request: for bug hunters',
-  description: `Fills out post's body with the standard template for the Utopian task request for bug hunters.`,
+  name: 'Techvoices.club task request: for bug hunters',
+  description: `Fills out post's body with the standard template for the Techvoices.club task request for bug hunters.`,
   changeInPost: {
     body: `#### Repository
 e.g. https://github.com/utopian-io/utopian.io
@@ -476,8 +476,8 @@ Paste here the full url to your github account. E.g. https://github.com/username
 };
 
 export const UTOPIAN_TASK_REQUEST_ANALYSTS: Template = {
-  name: 'Utopian task request: for analysts',
-  description: `Fills out post's body with the standard template for the Utopian task request for analysts.`,
+  name: 'Utopian : for analysts',
+  description: `Fills out post's body with the standard template for the Techvoices.club task request for analysts.`,
   changeInPost: {
     body: `#### Repository
 e.g. https://github.com/utopian-io/utopian.io
@@ -502,8 +502,8 @@ Paste here the full url to your github account. E.g. https://github.com/username
 };
 
 export const UTOPIAN_TASK_REQUEST_INFLUENCERS: Template = {
-  name: 'Utopian task request: for influencers',
-  description: `Fills out post's body with the standard template for the Utopian task request for influencers.`,
+  name: 'Techvoices.club task request: for influencers',
+  description: `Fills out post's body with the standard template for the Techvoices.club task request for influencers.`,
   changeInPost: {
     body: `#### Repository
 e.g. https://github.com/utopian-io/utopian.io
@@ -528,8 +528,8 @@ Paste here the full url to your github account. E.g. https://github.com/username
 };
 
 export const UTOPIAN_TASK_REQUEST_DESIGNERS: Template = {
-  name: 'Utopian task request: for designers',
-  description: `Fills out post's body with the standard template for the Utopian task request for designers.`,
+  name: 'Techvoices.club task request: for designers',
+  description: `Fills out post's body with the standard template for the Techvoices.club task request for designers.`,
   changeInPost: {
     body: `#### Repository
 e.g. https://github.com/utopian-io/utopian.io
@@ -554,8 +554,8 @@ Paste here the full url to your github account. E.g. https://github.com/username
 };
 
 export const UTOPIAN_TASK_REQUEST_DEVELOPERS: Template = {
-  name: 'Utopian task request: for developers',
-  description: `Fills out post's body with the standard template for the Utopian task request for developers.`,
+  name: 'Techvoices.club task request: for developers',
+  description: `Fills out post's body with the standard template for the Techvoices.club task request for developers.`,
   changeInPost: {
     body: `#### Repository
 e.g. https://github.com/utopian-io/utopian.io
@@ -580,8 +580,8 @@ Paste here the full url to your github account. E.g. https://github.com/username
 };
 
 export const UTOPIAN_TASK_REQUEST_TECH_WRITERS: Template = {
-  name: 'Utopian task request: for tech writers',
-  description: `Fills out post's body with the standard template for the Utopian task request for tech writers.`,
+  name: 'Techvoices.club task request: for tech writers',
+  description: `Fills out post's body with the standard template for the Techvoices.club task request for tech writers.`,
   changeInPost: {
     body: `#### Repository
 e.g. https://github.com/utopian-io/utopian.io
@@ -606,8 +606,8 @@ Paste here the full url to your github account. E.g. https://github.com/username
 };
 
 export const UTOPIAN_TASK_REQUEST_COPYWRITERS: Template = {
-  name: 'Utopian task request: for copywriters',
-  description: `Fills out post's body with the standard template for the Utopian task request for copywriters.`,
+  name: 'Techvoices.club task request: for copywriters',
+  description: `Fills out post's body with the standard template for the Techvoices.club task request for copywriters.`,
   changeInPost: {
     body: `#### Repository
 e.g. https://github.com/utopian-io/utopian.io
