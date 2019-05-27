@@ -15,9 +15,7 @@ import { BroadcastResult } from './../../steemconnect/services/steemconnect-broa
 })
 export class BroadcastResultSheetComponent {
   get linkToPost(): string {
-    return `https://busy.org/@${this.data.result.operations[0][1].author}/${
-      this.data.result.operations[0][1].permlink
-    }`;
+    return '';
   }
 
   constructor(

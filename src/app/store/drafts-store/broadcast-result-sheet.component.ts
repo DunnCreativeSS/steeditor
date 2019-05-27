@@ -29,9 +29,7 @@ export class BroadcastResultSheetComponent implements OnInit {
   currentDraft$: Observable<Draft>;
 
   get linkToPost(): string {
-    return `https://busy.org/@${this.data.result.operations[0][1].author}/${
-      this.data.result.operations[0][1].permlink
-    }`;
+    return '';
   }
 
   constructor(

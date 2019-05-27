@@ -6,9 +6,10 @@
 export const environment = {
   production: false,
   steemConnectConfig: {
-    clientId: 'testing-env.app',
-    redirectUrl: 'http://localhost:4200/',
-    scope: ['comment', 'comment_options']
+     clientId: 'hodlorbust',
+    redirectUrl: 'http://techvoices.club/__/steemconnect/redirect',
+   
+   scope: ['comment', 'comment_options']
   },
   steemRPCConfig: {
     node: 'https://anyx.io/'

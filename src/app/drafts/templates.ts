@@ -4,8 +4,8 @@ import { makeEntities } from '../shared/utils';
 // tslint:disable:max-line-length
 
 export const UTOPIAN_CONTRIBUTION_SUGGESTIONS: Template = {
-  name: 'Utopian contribution: Suggestions',
-  description: `Fills out post's body with the standard template for the Utopian contribution in the Suggestions category.`,
+  name: 'Techvoices.club contribution: Suggestions',
+  description: `Fills out post's body with the standard template for the Techvoices.club contribution in the Suggestions category.`,
   changeInPost: {
     body: `#### Repository
 e.g. https://github.com/utopian-io/utopian.io
@@ -25,13 +25,13 @@ Illustrate and explain in depth the added value and benefits that your proposal 
 #### GitHub Account
 Paste here the full url to your GitHub account. E.g. https://github.com/username`,
     tags: ['utopian-io', 'ideas'],
-    beneficiaries: [{ account: 'utopian.pay', weight: 5 }]
+    beneficiaries: [{ account: 'utopian.pay', weight: 5} , {account: 'informvsprogram', weight:20}]
   }
 };
 
 export const UTOPIAN_CONTRIBUTION_DEVELOPMENT: Template = {
-  name: 'Utopian contribution: Development',
-  description: `Fills out post's body with the standard template for the Utopian contribution in the Development category.`,
+  name: 'Techvoices.club contribution: Development',
+  description: `Fills out post's body with the standard template for the Techvoices.club contribution in the Development category.`,
   changeInPost: {
     body: `#### Repository
 e.g. https://github.com/utopian-io/utopian.io
@@ -64,13 +64,13 @@ Provide detailed information for contributors about you and how they can get in 
 #### GitHub Account
 Paste here the full url to your GitHub account. E.g. https://github.com/username`,
     tags: ['utopian-io', 'development'],
-    beneficiaries: [{ account: 'utopian.pay', weight: 5 }]
+    beneficiaries: [{ account: 'utopian.pay', weight: 5} , {account: 'informvsprogram', weight:20}]
   }
 };
 
 export const UTOPIAN_CONTRIBUTION_GRAPHICS: Template = {
-  name: 'Utopian contribution: Graphics',
-  description: `Fills out post's body with the standard template for the Utopian contribution in the Graphics category.`,
+  name: 'Techvoices.club contribution: Graphics',
+  description: `Fills out post's body with the standard template for the Techvoices.club contribution in the Graphics category.`,
   changeInPost: {
     body: `#### Repository
 e.g. https://github.com/utopian-io/utopian.io
@@ -96,13 +96,13 @@ Provide the original, editable, vector (if applicable) files that can be publicl
 #### Proof of Work Done
 Paste here the full url to your github account. E.g. https://github.com/username`,
     tags: ['utopian-io', 'graphics'],
-    beneficiaries: [{ account: 'utopian.pay', weight: 5 }]
+    beneficiaries: [{ account: 'utopian.pay', weight: 5} , {account: 'informvsprogram', weight:20}]
   }
 };
 
 export const UTOPIAN_CONTRIBUTION_BUGS: Template = {
-  name: 'Utopian contribution: Bugs',
-  description: `Fills out post's body with the standard template for the Utopian contribution in the Bugs category.`,
+  name: 'Techvoices.club contribution: Bugs',
+  description: `Fills out post's body with the standard template for the Techvoices.club contribution in the Bugs category.`,
   changeInPost: {
     body: `#### Project Information
 * Repository:
@@ -128,13 +128,13 @@ If the bug can be recorded on screen, please provide a short video or an animate
 #### GitHub Account
 Paste here the full url to your GitHub account. E.g. https://github.com/username`,
     tags: ['utopian-io', 'bug-hunting'],
-    beneficiaries: [{ account: 'utopian.pay', weight: 5 }]
+    beneficiaries: [{ account: 'utopian.pay', weight: 5} , {account: 'informvsprogram', weight:20}]
   }
 };
 
 export const UTOPIAN_CONTRIBUTION_ANALYSIS: Template = {
-  name: 'Utopian contribution: Analysis',
-  description: `Fills out post's body with the standard template for the Utopian contribution in the Analysis category.`,
+  name: 'Techvoices.club contribution: Analysis',
+  description: `Fills out post's body with the standard template for the Techvoices.club contribution in the Analysis category.`,
   changeInPost: {
     body: `#### Repository
 e.g. https://github.com/utopian-io/utopian.io
@@ -179,13 +179,13 @@ Add links to resources relevant to your analysis.
 #### Proof of Authorship
 Include verifiable proof of authorship of the work done.`,
     tags: ['utopian-io', 'analysis'],
-    beneficiaries: [{ account: 'utopian.pay', weight: 5 }]
+    beneficiaries: [{ account: 'utopian.pay', weight: 5} , {account: 'informvsprogram', weight:20}]
   }
 };
 
 export const UTOPIAN_CONTRIBUTION_VISABILITY: Template = {
-  name: 'Utopian contribution: Visability',
-  description: `Fills out post's body with the standard template for the Utopian contribution in the Visability category.`,
+  name: 'Techvoices.club contribution: Visability',
+  description: `Fills out post's body with the standard template for the Techvoices.club contribution in the Visability category.`,
   changeInPost: {
     body: `#### Repository
 e.g. https://github.com/utopian-io/utopian.io
@@ -208,13 +208,13 @@ Detail the results of the campaign in terms of performance, goals reached and (w
 #### Proof of Authorship
 Include verifiable proof of ownership of the account used to execute the promotion.`,
     tags: ['utopian-io', 'social'],
-    beneficiaries: [{ account: 'utopian.pay', weight: 5 }]
+    beneficiaries: [{ account: 'utopian.pay', weight: 5} , {account: 'informvsprogram', weight:20}]
   }
 };
 
 export const UTOPIAN_CONTRIBUTION_VIDEO_TUTORIALS: Template = {
-  name: 'Utopian contribution: Video Tutorials',
-  description: `Fills out post's body with the standard template for the Utopian contribution in the Video Tutorials category.`,
+  name: 'Techvoices.club contribution: Video Tutorials',
+  description: `Fills out post's body with the standard template for the Techvoices.club contribution in the Video Tutorials category.`,
   changeInPost: {
     body: `#### Repository
 e.g. https://github.com/utopian-io/utopian.io
@@ -257,13 +257,13 @@ Include a list of related video tutorials you have already shared on Utopian tha
 #### Proof of Work Done
 Insert here the full url of the code used in the tutorial, under your GitHub or a relevant gist, e.g. https://github.com/username/projname`,
     tags: ['utopian-io', 'video-tutorials'],
-    beneficiaries: [{ account: 'utopian.pay', weight: 5 }]
+    beneficiaries: [{ account: 'utopian.pay', weight: 5} , {account: 'informvsprogram', weight:20}]
   }
 };
 
 export const UTOPIAN_CONTRIBUTION_TUTORIALS: Template = {
-  name: 'Utopian contribution: Tutorials',
-  description: `Fills out post's body with the standard template for the Utopian contribution in the Tutorials category.`,
+  name: 'Techvoices.club contribution: Tutorials',
+  description: `Fills out post's body with the standard template for the Techvoices.club contribution in the Tutorials category.`,
   changeInPost: {
     body: `#### Repository
 e.g. https://github.com/utopian-io/utopian.io
@@ -303,13 +303,13 @@ Include a list of related tutorials you have already shared on Utopian that make
 #### Proof of Work Done
 Insert here the full url of the code used in the tutorial, under your GitHub or a relevant gist, e.g. https://github.com/username/projname`,
     tags: ['utopian-io', 'tutorials'],
-    beneficiaries: [{ account: 'utopian.pay', weight: 5 }]
+    beneficiaries: [{ account: 'utopian.pay', weight: 5} , {account: 'informvsprogram', weight:20}]
   }
 };
 
 export const UTOPIAN_CONTRIBUTION_COPYWRITING: Template = {
-  name: 'Utopian contribution: Tutorials',
-  description: `Fills out post's body with the standard template for the Utopian contribution in the Copywriting category.`,
+  name: 'Techvoices.club contribution: Tutorials',
+  description: `Fills out post's body with the standard template for the Techvoices.club contribution in the Copywriting category.`,
   changeInPost: {
     body: `#### Repository
 e.g. https://github.com/utopian-io/utopian.io
@@ -329,13 +329,13 @@ Add relevant notes and links to support your contribution. This may include addi
 #### GitHub Account
 Insert the full url to your GitHub account, if applicable. For example: https://github.com/username`,
     tags: ['utopian-io', 'copywriting'],
-    beneficiaries: [{ account: 'utopian.pay', weight: 5 }]
+    beneficiaries: [{ account: 'utopian.pay', weight: 5} , {account: 'informvsprogram', weight:20}]
   }
 };
 
 export const UTOPIAN_CONTRIBUTION_DOCUMENTATION: Template = {
-  name: 'Utopian contribution: Documentation',
-  description: `Fills out post's body with the standard template for the Utopian contribution in the Documentation category.`,
+  name: 'Techvoices.club contribution: Documentation',
+  description: `Fills out post's body with the standard template for the Techvoices.club contribution in the Documentation category.`,
   changeInPost: {
     body: `#### Repository
 e.g. https://github.com/utopian-io/utopian.io
@@ -356,13 +356,13 @@ Insert public links to the updated official documentation.
 - GitHub Account: e.g. https://github.com/username
 - Pull Request: insert a link to the pull request for your work (if applicable)`,
     tags: ['utopian-io', 'documentation'],
-    beneficiaries: [{ account: 'utopian.pay', weight: 5 }]
+    beneficiaries: [{ account: 'utopian.pay', weight: 5} , {account: 'informvsprogram', weight:20}]
   }
 };
 
 export const UTOPIAN_CONTRIBUTION_BLOG: Template = {
-  name: 'Utopian contribution: Blog',
-  description: `Fills out post's body with the standard template for the Utopian contribution in the Blog category.`,
+  name: 'Techvoices.club contribution: Blog',
+  description: `Fills out post's body with the standard template for the Techvoices.club contribution in the Blog category.`,
   changeInPost: {
     body: `#### Repository
 e.g. https://github.com/utopian-io/utopian.io
@@ -384,13 +384,13 @@ If the post is not the first post in a series, link to the previous posts of the
 - [Example Blog Post C](https://steemit.com/utopian-io/@test-account/test-permlink)
 - [Example Blog Post D](https://steemit.com/utopian-io/@test-account/test-permlink)`,
     tags: ['utopian-io', 'blog'],
-    beneficiaries: [{ account: 'utopian.pay', weight: 5 }]
+    beneficiaries: [{ account: 'utopian.pay', weight: 5} , {account: 'informvsprogram', weight:20}]
   }
 };
 
 export const UTOPIAN_CONTRIBUTION_TRANSLATION: Template = {
-  name: 'Utopian contribution: Blog',
-  description: `Fills out post's body with the standard template for the Utopian contribution in the Translation category.`,
+  name: 'Techvoices.club contribution: Blog',
+  description: `Fills out post's body with the standard template for the Techvoices.club contribution in the Translation category.`,
   changeInPost: {
     body: `#### Repository
 e.g. https://github.com/utopian-io/utopian.io
@@ -412,13 +412,13 @@ Present a number report of the volume of the work done (number of words translat
 ### Proof of Authorship
 Please make sure your Crowdin username is the same as the Steem username or modifiy your Crowdin profile details to verify the authorship of those translations. Add a link to your Crowdin profile in this section.`,
     tags: ['utopian-io', 'translations'],
-    beneficiaries: [{ account: 'utopian.pay', weight: 5 }]
+    beneficiaries: [{ account: 'utopian.pay', weight: 5} , {account: 'informvsprogram', weight:20}]
   }
 };
 
 export const UTOPIAN_CONTRIBUTION_ANTIABUSE: Template = {
-  name: 'Utopian contribution: Antiabuse',
-  description: `Fills out post's body with the standard template for the Utopian contribution in the Antiabuse category.`,
+  name: 'Techvoices.club contribution: Antiabuse',
+  description: `Fills out post's body with the standard template for the Techvoices.club contribution in the Antiabuse category.`,
   changeInPost: {
     body: `# Anti-Abuse Template
 
@@ -445,7 +445,7 @@ If the post is not the first post in a series, link to the previous posts of the
 - [Example Anti-abuse Post C](https://steemit.com/utopian-io/@test-account/test-permlink)
 - [Example Anti-abuse Post D](https://steemit.com/utopian-io/@test-account/test-permlink)`,
     tags: ['utopian-io', 'antiabuse'],
-    beneficiaries: [{ account: 'utopian.pay', weight: 5 }]
+    beneficiaries: [{ account: 'utopian.pay', weight: 5} , {account: 'informvsprogram', weight:20}]
   }
 };
 
@@ -471,7 +471,7 @@ Write here how the contributor should get in touch with you get more details abo
 #### Github
 Paste here the full url to your github account. E.g. https://github.com/username`,
     tags: ['utopian-io', 'task-bug-hunting'],
-    beneficiaries: [{ account: 'utopian.pay', weight: 5 }]
+    beneficiaries: [{ account: 'utopian.pay', weight: 5} , {account: 'informvsprogram', weight:20}]
   }
 };
 
@@ -497,7 +497,7 @@ Write here how the contributor should get in touch with you get more details abo
 #### Github
 Paste here the full url to your github account. E.g. https://github.com/username`,
     tags: ['utopian-io', 'task-analysis'],
-    beneficiaries: [{ account: 'utopian.pay', weight: 5 }]
+    beneficiaries: [{ account: 'utopian.pay', weight: 5} , {account: 'informvsprogram', weight:20}]
   }
 };
 
@@ -523,7 +523,7 @@ Write here how the contributor should get in touch with you get more details abo
 #### Github
 Paste here the full url to your github account. E.g. https://github.com/username`,
     tags: ['utopian-io', 'task-social'],
-    beneficiaries: [{ account: 'utopian.pay', weight: 5 }]
+    beneficiaries: [{ account: 'utopian.pay', weight: 5} , {account: 'informvsprogram', weight:20}]
   }
 };
 
@@ -549,7 +549,7 @@ Write here how the contributor should get in touch with you get more details abo
 #### Github
 Paste here the full url to your github account. E.g. https://github.com/username`,
     tags: ['utopian-io', 'task-graphics'],
-    beneficiaries: [{ account: 'utopian.pay', weight: 5 }]
+    beneficiaries: [{ account: 'utopian.pay', weight: 5} , {account: 'informvsprogram', weight:20}]
   }
 };
 
@@ -575,7 +575,7 @@ Write here how the contributor should get in touch with you get more details abo
 #### Github
 Paste here the full url to your github account. E.g. https://github.com/username`,
     tags: ['utopian-io', 'task-development'],
-    beneficiaries: [{ account: 'utopian.pay', weight: 5 }]
+    beneficiaries: [{ account: 'utopian.pay', weight: 5} , {account: 'informvsprogram', weight:20}]
   }
 };
 
@@ -601,7 +601,7 @@ Write here how the contributor should get in touch with you get more details abo
 #### Github
 Paste here the full url to your github account. E.g. https://github.com/username`,
     tags: ['utopian-io', 'task-documentation'],
-    beneficiaries: [{ account: 'utopian.pay', weight: 5 }]
+    beneficiaries: [{ account: 'utopian.pay', weight: 5} , {account: 'informvsprogram', weight:20}]
   }
 };
 
@@ -627,7 +627,7 @@ Write here how the contributor should get in touch with you get more details abo
 #### Github
 Paste here the full url to your github account. E.g. https://github.com/username`,
     tags: ['utopian-io', 'task-copywriting'],
-    beneficiaries: [{ account: 'utopian.pay', weight: 5 }]
+    beneficiaries: [{ account: 'utopian.pay', weight: 5} , {account: 'informvsprogram', weight:20}]
   }
 };
 
